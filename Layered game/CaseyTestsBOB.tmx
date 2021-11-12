@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="50" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="3">
+ <tileset firstgid="1" name="fantasy-tiles" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="../Templates/fantasy-tiles.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="fantasy-tiles" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="../../../../Pygame/fantasy-tiles.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <layer id="2" name="collision" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztlsENwjAMRV0ujJARygbpBrBBucMG9FaGxxaxVA4kIg6NE/lJX42aVrKT/5sCANxQd3jz61gTD9SSOR5Rpx1q/Dda+pD6Q0sfS/qRKB41lSikMmfUpXYRIPfVjLqWKEQI+WpFPb/MHxLva/oGrxDvJYaWnNNacg85fWjJecpXKXrKuQZvSc8PyrkWbxGSnGvwFvsqtw/aCz5D5lJFZcDf/9x/d96L2r6ifI6hFvbGFO5v1xrClfPsw/M873eq1zCOw6d6wDXahwt74DZqEfaRa9xXbugzH4ZhGFJe80slig==
+  </data>
+ </layer>
+ <layer id="1" name="Tile Layer 1" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1sEJwCAMhWFnqXYC3X+2HowQQhsPTSGU/7s8FQUlKJbyD0Oymn6XPFU+tRFn7Ke4qEcs6pFL309xUY9Y3I9c2sv11CMW79WU5Rzrfqz9VDN+SN79f3UCAAAA+M4FIIAFGg==
+  </data>
+ </layer>
+ <objectgroup id="3" name="Object Layer 1">
+  <object id="2" name="Player" x="91" y="55.25" width="16" height="32"/>
+ </objectgroup>
+</map>

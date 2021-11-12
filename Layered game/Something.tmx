@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="50" height="30" tilewidth="64" tileheight="64" infinite="0" nextlayerid="5" nextobjectid="4">
+ <tileset firstgid="1" name="fantasy-tiles" tilewidth="64" tileheight="64" tilecount="64" columns="8">
+  <image source="../../../../Pygame/fantasy-tiles.png" width="512" height="512"/>
+ </tileset>
+ <layer id="2" name="collision" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztz7ENgDAUxNALHUoFVOy/KJ+CDSLiSH6SB3BLslVt8fb87x7Up2fOx2h+sPjB4geLHyx+sPjB4geLHyx+sPjB4geLHyx+sLwfR3Uu3lU9dpoHqg==
+  </data>
+ </layer>
+ <layer id="1" name="Tile Layer 1" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0MENACEMBDHaoP9GrwngRpFXmn+cteZsP26K49Y//r6Hg6MURyuOVhytOFpxtOJoxdGKo9Vkx4RxtMZhp/cBIjpmDg==
+  </data>
+ </layer>
+ <objectgroup id="3" name="Objects">
+  <object id="2" name="Player" x="884.664" y="339.464" width="108.011" height="689.215">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>
