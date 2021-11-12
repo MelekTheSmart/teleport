@@ -20,7 +20,7 @@ tiled_map = load_pygame('Something.tmx')
 tilewidth = tiled_map.tilewidth
 tileheight = tiled_map.tileheight
 collision = tiled_map.get_layer_by_name('collision')
-MOVEMENTSPEED = 1
+MOVEMENTSPEED = .5
 
 tiles = []
 for x, y, tile in collision.tiles():
@@ -30,7 +30,7 @@ CAMERA = tiled_map.get_object_by_name("Player")
 #caption for the game
 pygame.display.set_caption("My first game in pygame")
 player = pygame.image.load(os.path.join("../Sprites/Little Guy 1.0 left.png")).convert_alpha() # load in coin image, convert_alpha will keep transparent background
-# player = pygame.transform.scale(player, (32, 64)) # resize player image, this should be the same size as the map object
+# player = pygame.transform.scale(player, (64, 64)) # resize player image, this should be the same size as the map object
 #game loop
 while True:
     for events in pygame.event.get(): #get all pygame events
