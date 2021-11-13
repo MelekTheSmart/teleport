@@ -561,7 +561,7 @@
    </properties>
    <ellipse/>
   </object>
-  <object id="4" name="player" type="player" x="4278.91" y="3690.83" width="32" height="58"/>
+  <object id="4" name="player" type="player" x="4278.91" y="3690.83" width="32" height="32"/>
   <object id="177" name="spawn" type="spawn" x="4323" y="3560">
    <point/>
   </object>
