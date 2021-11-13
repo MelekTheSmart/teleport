@@ -846,7 +846,6 @@
   <object id="153" name="Level_3" x="3687" y="4777">
    <point/>
   </object>
-  <object id="158" x="3648" y="1264" width="2704" height="3504"/>
  </objectgroup>
  <objectgroup id="16" name="placeholder">
   <object id="134" name="door 8" type="door" gid="17" x="3392" y="4032" width="576" height="192">
