@@ -25,7 +25,7 @@ tiled_map = load_pygame('../maps/map01.tmx')
 tilewidth = tiled_map.tilewidth
 tileheight = tiled_map.tileheight
 collision = tiled_map.get_layer_by_name('collision')
-teleport = tiled_map.get_layer_by_name('collision')
+teleport = tiled_map.get_layer_by_name('teleport')
 MOVEMENTSPEED = 5
 COOLDOWN = 100
 can_teleport = COOLDOWN
@@ -150,8 +150,8 @@ while True:
 
         playerrec = pygame.Rect([x, y, w, h])
         if playerrec.collidelistall(spaces):
-            pos[1] = 100
-            pos[0] = 502.00
+            pos[1] = -1500
+            pos[0] = 3500.00
         # check key with the current position of the player
         checkkey(pygame.Rect([tiled_map.get_object_by_name("player").x, tiled_map.get_object_by_name("player").y,
                               tiled_map.get_object_by_name("player").width,
