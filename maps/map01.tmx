@@ -49,7 +49,6 @@
     <property name="open" type="int" value="1"/>
    </properties>
   </object>
-  <object id="149" x="5372" y="477" width="253" height="126"/>
  </objectgroup>
  <layer id="2" name="collision" width="128" height="128">
   <data encoding="csv">
@@ -753,6 +752,6 @@
     <property name="open" type="int" value="6"/>
    </properties>
   </object>
-  <object id="151" name="Level 2" x="5356" y="510" width="184" height="110"/>
+  <object id="151" name="Level 2" x="5477.21" y="522.121" width="184" height="110"/>
  </objectgroup>
 </map>

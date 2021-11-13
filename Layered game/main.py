@@ -150,7 +150,7 @@ while True:
 
         playerrec = pygame.Rect([x, y, w, h])
         if playerrec.collidelistall(spaces):
-            pos[1] = tiled_map.get_object_by_name('Level 2')
+            pos[1] = 100
             pos[0] = 502.00
         # check key with the current position of the player
         checkkey(pygame.Rect([tiled_map.get_object_by_name("player").x, tiled_map.get_object_by_name("player").y,
