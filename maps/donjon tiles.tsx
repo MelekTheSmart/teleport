@@ -4,8 +4,9 @@
  <wangsets>
   <wangset name="Unnamed Set" type="mixed" tile="-1">
    <wangcolor name="" color="#ff0000" tile="-1" probability="1"/>
-   <wangtile tileid="17" wangid="1,1,1,1,0,0,0,1"/>
-   <wangtile tileid="18" wangid="1,1,0,0,0,1,1,1"/>
+   <wangcolor name="" color="#00ff00" tile="-1" probability="1"/>
+   <wangtile tileid="13" wangid="1,1,1,1,1,1,1,1"/>
+   <wangtile tileid="14" wangid="1,1,1,1,1,1,1,1"/>
   </wangset>
  </wangsets>
 </tileset>
