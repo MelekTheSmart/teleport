@@ -3,9 +3,9 @@
  <tileset firstgid="1" name="fantasy-tiles" tilewidth="64" tileheight="64" tilecount="64" columns="8">
   <image source="../../../../Pygame/fantasy-tiles.png" width="512" height="512"/>
  </tileset>
- <layer id="1" name="Tile Layer 1" width="50" height="30" locked="1">
+ <layer id="1" name="Tile Layer 1" width="50" height="30">
   <data encoding="base64" compression="zlib">
-   eJztzwENADAIwDBs3L/R2yhkSypgM3d6y/Vh6cPSh6UPSx+WPix9WPqw9GHpw9KHpQ9LH5ZrHxf6jh2DQQ==
+   eJztzzsSQwAURmGlTk08ItGQSYF4DDPsf1dOYQfpOP/M19zmzgmC6yzGAwnS85YhR4EnSrzxQoUaH3Ro8MWCH1qM6DFgxYYJO2ZECM/f/7LDDjvssMMOO+ywww477LDDDjvssMMOO+y4a8cVdgCu3bQl
   </data>
  </layer>
  <layer id="2" name="collision" width="50" height="30">
